@@ -20,7 +20,7 @@ export function Navbar() {
             <button type="button" onClick={handleScrollAbout} className="text-slate-50 text-xs lg:text-sm font-semibold transition duration-500 hover:text-indigo-800">ABOUT</button>
             <button type="button" onClick={handleScrollProjects} className="text-slate-50 text-xs lg:text-sm font-semibold transition duration-500 hover:text-indigo-800">PROJECTS</button>
             <button type="button" onClick={handleScrollContact} className="text-slate-50 text-xs lg:text-sm font-semibold transition duration-500 hover:text-indigo-800">CONTACT</button>
-            <button type="button" onClick={handleScrollContact} className="text-slate-50 bg-indigo-800 p-2 px-4 rounded-lg text-xs lg:text-sm font-semibold ">
+            <button type="button" className="text-slate-50 bg-indigo-800 p-2 px-4 rounded-lg text-xs lg:text-sm font-semibold ">
                 <a href="https://drive.google.com/file/d/16Rnz1yhWVwW-8l3o1JWKVAlGhTkS74ck/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     MY CV
                 </a>
