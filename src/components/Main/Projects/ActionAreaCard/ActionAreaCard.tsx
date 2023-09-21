@@ -4,8 +4,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { Record } from 'phosphor-react';
 
-import avatar from '../../../../assets/avatar.jpg'
 
 interface Project {
   id: number;
@@ -13,6 +13,7 @@ interface Project {
   description: string;
   src: string;
   url: string;
+  live?: boolean;
 }
 interface ActionAreaCardProps {
   projects: Project[];
@@ -24,6 +25,7 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
   function handleClick(url: string) {
     window.open(url, '_blank')
   }
+
 
   return (
     <>
@@ -45,6 +47,12 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
                 <Typography style={{ color: '#ffff' }} lineHeight={2} fontFamily="Poppins" variant="body2" color="text.secondary">
                   {project.description}
                 </Typography>
+            
+                 {project.live && (
+                   <div className='absolute bottom-0 mb-2 flex justify-start items-center gap-1' style={{ color: 'red' }}>
+                   <Record size={24} color='red' className='animate-pulse' />Live Preview
+                 </div>
+                 )}
               </CardContent>
             </CardActionArea>
           </Card>

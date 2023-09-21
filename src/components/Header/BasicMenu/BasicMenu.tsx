@@ -17,20 +17,23 @@ export function BasicMenu() {
   };
 
   function handleScrollHome() {
-    scroll.scrollTo(0)
-    handleClose()
+    scroll.scrollToTop();
   }
+  
   function handleScrollAbout() {
-    scroll.scrollTo(880)
-    handleClose()
+    const documentHeight = document.body.scrollHeight;
+    const scrollToPosition = documentHeight * 0.08;
+    scroll.scrollTo(scrollToPosition);
   }
+  
   function handleScrollProjects() {
-    scroll.scrollTo(2300)
-    handleClose()
+    const documentHeight = document.body.scrollHeight;
+    const scrollToPosition = documentHeight * 0.22;
+    scroll.scrollTo(scrollToPosition);
   }
+  
   function handleScrollContact() {
-    scroll.scrollTo(10000)
-    handleClose()
+    scroll.scrollToBottom();
   }
 
   return (

@@ -1,17 +1,24 @@
 import { animateScroll as scroll } from 'react-scroll';
 
 function handleScrollHome() {
-    scroll.scrollTo(0)
-}
-function handleScrollAbout() {
-    scroll.scrollTo(815)
-}
-function handleScrollProjects() {
-    scroll.scrollTo(1950)
-}
-function handleScrollContact() {
-    scroll.scrollTo(5000)
-}
+    scroll.scrollToTop();
+  }
+  
+  function handleScrollAbout() {
+    const documentHeight = document.body.scrollHeight;
+    const scrollToPosition = documentHeight * 0.15;
+    scroll.scrollTo(scrollToPosition);
+  }
+  
+  function handleScrollProjects() {
+    const documentHeight = document.body.scrollHeight;
+    const scrollToPosition = documentHeight * 0.38;
+    scroll.scrollTo(scrollToPosition);
+  }
+  
+  function handleScrollContact() {
+    scroll.scrollToBottom();
+  }
 
 export function Navbar() {
     return (
