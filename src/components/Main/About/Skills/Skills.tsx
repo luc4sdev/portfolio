@@ -32,43 +32,49 @@ const skills = [
         name: 'GraphQL',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
     },
+
     {
         id: 7,
+        name: 'Storybook',
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg"
+    },
+    {
+        id: 8,
         name: 'Bootstrap',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
     },
     {
-        id: 8,
+        id: 9,
         name: 'Tailwindcss',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
     },
     {
-        id: 9,
+        id: 10,
         name: 'Sass',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
     },
     {
-        id: 10,
+        id: 11,
         name: 'Figma',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
-        id: 11,
+        id: 12,
         name: 'Firebase',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     },
     {
-        id: 12,
+        id: 13,
         name: 'Docker',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
     },
     {
-        id: 13,
+        id: 14,
         name: 'PostgreSQL',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
-        id: 14,
+        id: 15,
         name: 'Git',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     },
