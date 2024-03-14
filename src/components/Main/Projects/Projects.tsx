@@ -10,6 +10,8 @@ import projeto7 from '../../../assets/projeto7.png'
 import projeto8 from '../../../assets/projeto8.png'
 import projeto9 from '../../../assets/projeto9.png'
 import projeto10 from '../../../assets/projeto10.png'
+import projeto11 from '../../../assets/projeto11.png'
+import projeto12 from '../../../assets/projeto12.png'
 
 interface Project {
     id: number;
@@ -21,6 +23,24 @@ interface Project {
   }
 
 const projects:Project[] = [
+
+    {
+        id: 1,
+        title: 'PUBG Stats',
+        description: 'An application in ReactJS and NextJS that communicates with the PUBG API, in this application the player can consult their data in the game, such as K/D, longest kill distance, number of wins, among others and it is also possible to consult the ranking of the best players on South American servers.',
+        src: projeto12,
+        url: 'https://pubg-app-omega.vercel.app/',
+        live: true,
+    },
+
+    {
+        id: 2,
+        title: 'App Feed',
+        description: 'The project\'s objective is to implement a feed screen with data from the Giphy API, returning the top trending gifs. The application was developed using ReactJS and NextJS. Unit tests were also performed with Jest and React Testing Library.',
+        src: projeto11,
+        url: 'https://appfeed.vercel.app/',
+        live: true,
+    },
 
     {
         id: 1,
@@ -101,7 +121,7 @@ const projects:Project[] = [
 export function Projects() {
     return (
         <div className="mt-96 w-10/12 flex flex-col gap-8 justify-center items-center">
-            <h1 className="text-slate-50 text-xl md:text-6xl font-semibold transition duration-500 hover:text-indigo-800">PROJECTS</h1>
+            <h1 className="text-slate-50 text-xl md:text-6xl font-semibold transition duration-500 hover:text-sky-500">PROJECTS</h1>
             <p className="text-slate-50 text-lg md:text-xl text-center font-semibold">Some of my personal projects, you can find more in my github repository
           <a href="https://www.github.com/luc4sdev" target="_blank" rel="external"><i className="ms-2 text-2xl devicon-github-original"></i></a>.
             </p>

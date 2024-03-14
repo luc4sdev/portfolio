@@ -46,7 +46,7 @@ const skills = [
     {
         id: 9,
         name: 'Tailwindcss',
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     },
     {
         id: 10,
@@ -78,18 +78,30 @@ const skills = [
         name: 'Git',
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     },
+    
+    {
+        id: 16,
+        name: 'C#',
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+    },
+
+    {
+        id: 17,
+        name: '.Net',
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain.svg"
+    },
 ]
 
 export function Skills() {
     return (
-        <div className="w-full mt-12 bg-neutral-800 flex flex-col justify-center items-center">
-            <h1 className="text-slate-50 text-lg md:text-3xl font-semibold transition duration-500 hover:text-indigo-800">SKILLS</h1>
+        <div className="w-full mt-12 bg-neutral-800 flex flex-col justify-center items-center py-3">
+            <h1 className="text-slate-50 text-lg md:text-3xl font-semibold transition duration-500 hover:text-sky-500">SKILLS</h1>
             <div className="mt-8 w-full grid grid-cols-3 md:grid-cols-5 gap-8">
                 {skills.map(skill => {
                     return (
                         <div key={skill.id} className="flex flex-col justify-center items-center">
                             <Avatar alt={skill.name} src={skill.src} sx={{ width: 50, height: 50 }} variant="square"/>
-                            <h1 className="text-slate-50 text-sm md:text-lg font-semibold transition duration-500 hover:text-indigo-800">{skill.name}</h1>
+                            <h1 className="text-slate-50 text-sm md:text-lg font-semibold transition duration-500 hover:text-sky-500">{skill.name}</h1>
                         </div>
                     )
                 })}

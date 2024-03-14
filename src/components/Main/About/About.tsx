@@ -1,14 +1,14 @@
 import { Avatar } from "@mui/material";
 import { Skills } from "./Skills/Skills";
 
-import avatar from '../../../assets/avatar.jpg'
+import avatar from '../../../assets/avatar.jpeg'
 
 export function About() {
     return (
         <>
 
             <div className="mt-96 w-full flex flex-col justify-center items-center gap-10">
-                <h1 className="text-slate-50 text-xl md:text-6xl font-semibold transition duration-500 hover:text-indigo-800">ABOUT ME</h1>
+                <h1 className="text-slate-50 text-xl md:text-6xl font-semibold transition duration-500 hover:text-sky-500">ABOUT ME</h1>
                 
                 <div className="w-3/4 grid grid-cols-2 px-2 gap-5">
 
@@ -22,8 +22,8 @@ export function About() {
                         </p>
                     </div>
 
-                    <div className="col-span-2 md:col-span-1 flex flex-col gap-3 justify-start items-center text-start border-t-4 md:border-t-0 md:border-l-4 border-indigo-800 ps-10">
-                        <h2 className="text-slate-50 text-lg md:text-2xl font-semibold transition duration-500 hover:text-indigo-800">Professional experience</h2>
+                    <div className="col-span-2 md:col-span-1 flex flex-col gap-3 justify-start items-center text-start border-t-4 md:border-t-0 md:border-l-4 border-sky-500 ps-10 py-5">
+                        <h2 className="text-slate-50 text-lg md:text-2xl font-semibold transition duration-500 hover:text-sky-500">Professional experience</h2>
                         <p className="w-full text-slate-50 text-start text-base md:text-lg font-normal">- Front-End Developer | LiveFarm Agricultural Technology LTDA.</p>
                         <p className="w-full text-slate-50 text-start text-base md:text-lg font-normal">- 05/2022 - Now</p>
 

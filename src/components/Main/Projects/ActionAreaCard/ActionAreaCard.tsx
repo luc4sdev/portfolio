@@ -31,8 +31,8 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
     <>
     {projects.map(project => {
       return (
-        <div className="w-full" onClick={() => handleClick(project.url)}>
-          <Card key={project.id} sx={{ backgroundColor: '#262626' }}>
+        <div key={project.id} className="w-full" onClick={() => handleClick(project.url)}>
+          <Card sx={{ backgroundColor: '#262626' }}>
             <CardActionArea>
               <CardMedia
                 component="img"
