@@ -101,7 +101,7 @@ export function Skills() {
                     return (
                         <div key={skill.id} className="flex flex-col justify-center items-center">
                             <Avatar alt={skill.name} src={skill.src} sx={{ width: 50, height: 50 }} variant="square"/>
-                            <h1 className="text-slate-50 text-sm md:text-lg font-semibold transition duration-500 hover:text-sky-500">{skill.name}</h1>
+                            <p className="text-slate-50 text-sm md:text-lg transition duration-500 hover:text-sky-500">{skill.name}</p>
                         </div>
                     )
                 })}

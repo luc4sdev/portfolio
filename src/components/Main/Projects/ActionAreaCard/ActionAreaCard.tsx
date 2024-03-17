@@ -31,7 +31,7 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
     <>
     {projects.map(project => {
       return (
-        <div key={project.id} className="w-full" onClick={() => handleClick(project.url)}>
+        <div key={project.id} className="w-full hover:transition-all delay-150 hover:scale-110" onClick={() => handleClick(project.url)}>
           <Card sx={{ backgroundColor: '#262626' }}>
             <CardActionArea>
               <CardMedia
@@ -44,7 +44,7 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
                 <Typography style={{ color: '#ffff' }} fontFamily="Poppins" gutterBottom variant="h5" component="div">
                   {project.title}
                 </Typography>
-                <Typography style={{ color: '#ffff' }} lineHeight={2} fontFamily="Poppins" variant="body2" color="text.secondary">
+                <Typography style={{ color: '#ffff' }} lineHeight={1.8} fontFamily="Poppins" variant="body2" color="text.secondary">
                   {project.description}
                 </Typography>
             
