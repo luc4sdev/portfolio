@@ -6,13 +6,13 @@ function handleScrollHome() {
   
   function handleScrollAbout() {
     const documentHeight = document.body.scrollHeight;
-    const scrollToPosition = documentHeight * 0.15;
+    const scrollToPosition = documentHeight * 0.13;
     scroll.scrollTo(scrollToPosition);
   }
   
   function handleScrollProjects() {
     const documentHeight = document.body.scrollHeight;
-    const scrollToPosition = documentHeight * 0.38;
+    const scrollToPosition = documentHeight * 0.35;
     scroll.scrollTo(scrollToPosition);
   }
   

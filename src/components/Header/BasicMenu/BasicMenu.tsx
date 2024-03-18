@@ -22,13 +22,13 @@ export function BasicMenu() {
   
   function handleScrollAbout() {
     const documentHeight = document.body.scrollHeight;
-    const scrollToPosition = documentHeight * 0.08;
+    const scrollToPosition = documentHeight * 0.06;
     scroll.scrollTo(scrollToPosition);
   }
   
   function handleScrollProjects() {
     const documentHeight = document.body.scrollHeight;
-    const scrollToPosition = documentHeight * 0.22;
+    const scrollToPosition = documentHeight * 0.225;
     scroll.scrollTo(scrollToPosition);
   }
   

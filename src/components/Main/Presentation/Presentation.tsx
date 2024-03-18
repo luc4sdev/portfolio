@@ -10,7 +10,7 @@ export function Presentation() {
             <h1 className="text-slate-50 text-3xl md:text-6xl font-semibold">
                 <Typewriter
                     options={{
-                        strings: ['I`M A FULL STACK DEVELOPER.'],
+                        strings: ['FRONT-END', 'BACK-END', 'FULL-STACK'],
                         autoStart: true,
                         loop: true,
                     }}

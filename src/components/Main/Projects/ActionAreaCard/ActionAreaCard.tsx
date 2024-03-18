@@ -31,7 +31,7 @@ export function ActionAreaCard({ projects }: ActionAreaCardProps) {
     <>
     {projects.map(project => {
       return (
-        <div key={project.id} className="w-full hover:transition-all delay-150 hover:scale-110" onClick={() => handleClick(project.url)}>
+        <div key={project.id} className="w-full bg-neutral-800 transition-all delay-100 hover:scale-110  border-2 rounded-md" onClick={() => handleClick(project.url)}>
           <Card sx={{ backgroundColor: '#262626' }}>
             <CardActionArea>
               <CardMedia

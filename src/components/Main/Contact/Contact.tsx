@@ -23,7 +23,7 @@ export function Contact() {
        <div className="flex justify-center items-center gap-4">
            {contacts.map(contact => {
             return (
-                <a key={contact.id} href={contact.url} target="_blank" rel="external">
+                <a key={contact.id} className="hover:scale-110" href={contact.url} target="_blank" rel="external">
                     <Avatar alt={contact.name} src={contact.src} sx={{ width: 50, height: 50 }} variant="square"/>
                 </a>
             )

@@ -133,7 +133,7 @@ export function Projects() {
         <div className="mt-96 w-10/12 flex flex-col gap-8 justify-center items-center">
             <h1 className="text-slate-50 text-xl md:text-6xl font-semibold transition duration-500 hover:text-sky-500">PROJECTS</h1>
             <p className="text-slate-50 text-lg md:text-xl text-center font-semibold">Some of my personal projects, you can find more in my github repository
-          <a href="https://www.github.com/luc4sdev" target="_blank" rel="external"><i className="ms-2 text-2xl devicon-github-original"></i></a>.
+          <a href="https://www.github.com/luc4sdev" className="" target="_blank" rel="external"><i className="ms-2 text-2xl devicon-github-original hover:text-sky-500"></i></a>.
             </p>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <ActionAreaCard projects={projects}/>
