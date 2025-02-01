@@ -19,7 +19,7 @@ export function Projects() {
                     <i className="devicon-github-original text-2xl"></i>
                 </a>
             </p>
-            <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+            <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
                 <ActionAreaCard projects={projects} />
             </div>
         </div>

@@ -44,7 +44,7 @@ export function About() {
                                 Front-End Developer | LiveFarm Agricultural Technology LTDA.
                             </p>
                             <p className="text-slate-400 text-base md:text-lg font-normal">
-                                05/2022 - 04/2024
+                                05/2022 - 03/2024
                             </p>
                             <p className="text-slate-300 text-base md:text-lg font-normal leading-relaxed">
                                 Developed applications using front-end/back-end frameworks and libraries, including TypeScript, ReactJS, NextJS, NodeJS, Firebase, Bootstrap 5, TailwindCSS, and Figma. Managed servers, refactored scripts, and followed best programming practices using Scrum methodology.

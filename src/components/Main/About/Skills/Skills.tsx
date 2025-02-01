@@ -10,7 +10,7 @@ export function Skills() {
             </h1>
 
             {Object.entries(skillsByCategory).map(([category, skills]) => (
-                <div key={category} className="w-full max-w-6xl mb-12">
+                <div key={category} className="w-full max-w-7xl mb-12">
                     <h2 className="text-slate-50 text-xl md:text-2xl font-semibold mb-6 ml-4">
                         {category}
                     </h2>

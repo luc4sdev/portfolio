@@ -6,6 +6,15 @@ import projeto10 from '../assets/projeto10.png'
 import projeto11 from '../assets/projeto11.png'
 import projeto12 from '../assets/projeto12.png'
 import projeto13 from '../assets/projeto13.png'
+import projectSaas from '../assets/project-saas.png'
+import projectSuportApp from '../assets/project-support-app.png'
+import projectRoutersApp from '../assets/project-routers-app.png'
+import projectIgniteShop from '../assets/project-ignite-shop.png'
+import projectDashboardTailwind from '../assets/project-dashboard-tailwind.png'
+import projectUploadAi from '../assets/project-upload-ai.png'
+import projectPassIn from '../assets/project-pass-in.png'
+import projectVideoPlayer from '../assets/project-video-player.png'
+import projectDesignSystem from '../assets/project-design-system.png'
 
 
 interface Project {
@@ -21,7 +30,7 @@ export const projects: Project[] = [
         id: 1,
         title: 'SaaS (RBAC) - NextJS',
         description: 'A SaaS application built with Next.js and Node.js, featuring Role-Based Access Control (RBAC). This platform allows the creation of companies and projects, where each company manages its own projects and users. It includes JWT authentication and GitHub login for secure access management.',
-        src: projeto12,
+        src: projectSaas,
         url: 'https://next-saas-rbac-web-one.vercel.app/',
         live: true,
     },
@@ -29,7 +38,7 @@ export const projects: Project[] = [
         id: 2,
         title: 'Support App',
         description: 'A full-stack customer support and management application built with Next.js, Node.js, and Fastify. The front-end uses React.js, TailwindCSS, Radix UI, and TanStack Query, ensuring a responsive and optimized UI/UX. The back-end is powered by Prisma ORM with a Dockerized database, JWT authentication, and Swagger documentation. Following SOLID, DDD, and TDD principles, the project includes unit and E2E tests integrated into a CI/CD pipeline. The application is deployed on Vercel (front-end) and Render (back-end) for full functionality.',
-        src: projeto12,
+        src: projectSuportApp,
         url: 'https://support-app-neon.vercel.app/',
         live: true,
     },
@@ -37,7 +46,7 @@ export const projects: Project[] = [
         id: 3,
         title: 'Routers App',
         description: 'A full-stack customer and router management application built with Next.js, Node.js, and Fastify. The front-end leverages React.js, TailwindCSS, Radix UI, and TanStack Query, ensuring a responsive and well-structured UI/UX. The back-end utilizes Prisma ORM and Elasticsearch for data storage, running in a Dockerized environment. Authentication is handled via JWT, and the Elasticsearch API is documented with Swagger. The project follows SOLID, DDD, and TDD principles, with unit and E2E tests integrated into a CI/CD pipeline. The application is deployed on Vercel (front-end) and Render (back-end) for full functionality.',
-        src: projeto12,
+        src: projectRoutersApp,
         url: 'https://routers-app-eta.vercel.app/',
         live: true,
     },
@@ -61,7 +70,7 @@ export const projects: Project[] = [
         id: 6,
         title: 'Ignite Shop',
         description: 'A modern e-commerce application built with Next.js 14 and React.js, leveraging the latest framework features like server components, SSR streaming, client components, Suspense API, and advanced data fetching. The project includes product listing, checkout integration with Stripe, and a success page, ensuring a seamless shopping experience. Styling is handled with Stitches, and API communication is managed using Axios. Deployed on Vercel for high performance and scalability.',
-        src: projeto13,
+        src: projectIgniteShop,
         url: 'https://ignite-shop-iota-dun.vercel.app/',
         live: true,
     },
@@ -69,7 +78,7 @@ export const projects: Project[] = [
         id: 7,
         title: 'Dashboard - Tailwindcss',
         description: 'A responsive dashboard built with Next.js and TailwindCSS, featuring light and dark mode for an optimized user experience. This project focuses on modern styling techniques, ensuring a clean and adaptable UI across different devices. It demonstrates the power of TailwindCSS for rapid styling and Next.js for seamless performance.',
-        src: projeto13,
+        src: projectDashboardTailwind,
         url: 'https://dashboard-tailwind-navy.vercel.app/',
         live: true,
     },
@@ -77,7 +86,7 @@ export const projects: Project[] = [
         id: 8,
         title: 'Upload AI',
         description: 'Upload AI is an innovative platform built with Next.js on the front-end and Node.js with Fastify on the back-end. This project allows users to upload videos, which are then transcribed, and with the help of ChatGPT, automatic titles or descriptions can be generated. The platform features a responsive dashboard, built using ShadCNUI for a sleek user interface and TailwindCSS for styling, ensuring an efficient and high-performance experience.',
-        src: projeto13,
+        src: projectUploadAi,
         url: 'https://upload-ai-web-eight.vercel.app/',
         live: true,
     },
@@ -85,7 +94,7 @@ export const projects: Project[] = [
         id: 9,
         title: 'Pass In',
         description: 'A complete event management platform built with Next.js on the front-end and Node.js with Fastify on the back-end. This project allows users to create events, register participants, and manage attendance efficiently. It features a responsive UI, built with TailwindCSS, and ensures high performance with Fastify.',
-        src: projeto13,
+        src: projectPassIn,
         url: 'https://pass-in-web-alpha.vercel.app/',
         live: true,
     },
@@ -93,7 +102,7 @@ export const projects: Project[] = [
         id: 10,
         title: 'Video Player',
         description: 'Video Player is a front-end project built with Vite, focusing on improving state management skills using Zustand and Redux. This platform provides a responsive and efficient video player experience, with features like video playback and user interactions. The UI is styled with TailwindCSS, ensuring a smooth and modern design, and the project emphasizes state management techniques for optimal performance.',
-        src: projeto13,
+        src: projectVideoPlayer,
         url: 'https://react-redux-zustand-roan.vercel.app/',
         live: true,
     },
@@ -101,7 +110,7 @@ export const projects: Project[] = [
         id: 11,
         title: 'Design System',
         description: 'Design System is a front-end project built with Vite and Storybook, focused on creating a scalable and reusable set of UI components. This project helps standardize the design process, ensuring consistency across applications. The system allows developers to easily preview and test components in isolation using Storybook, facilitating efficient UI development and maintaining a cohesive design.',
-        src: projeto13,
+        src: projectDesignSystem,
         url: 'https://luc4sdev.github.io/design-system/',
         live: true,
     },
